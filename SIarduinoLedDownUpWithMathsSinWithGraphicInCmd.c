@@ -25,7 +25,6 @@ void loop() {
 			delay(10);
 			Serial.print(" ");
 		}
-		Serial.print("\nstops here");
 		f-=0.1;
 	}
 	if (goUp == true) {
